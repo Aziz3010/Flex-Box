@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f1f1f1;
+	padding: 0px 30px;
+}
+p {
+	margin: 5px 0px;
+}
+.container {
+	background-color: #fff;
+	width: 100%;
+	height: 35px;
+}
+.left,
+.right,
+.middel {
+	height: 35px;
+}
+/* 1 */
+.row1 {
+	display: flex;
+	flex-direction: row;
+}
+.row1 .left {
+	background-color: red;
+	width: calc(100%/2);
+}
+.row1 .right {
+	background-color: blue;
+	width: calc(100%/2);
+}
+/* 2 */
+.row2 {
+	display: flex;
+	flex-direction: row;
+}
+.row2 .left {
+	background-color: green;
+	width: 95%;
+}
+.row2 .right {
+	background-color: blue;
+	width: 5%;
+}
+/* 3 */
+.row3 {
+	display: flex;
+	flex-direction: row;
+}
+.row3 .left {
+	background-color: red;
+	width: 5%;
+}
+.row3 .middel {
+	background-color: green;
+	width: 90%;
+}
+.row3 .right {
+	background-color: blue;
+	width: 5%;
+}
+/* 4 */
+.row4 {
+	display: flex;
+	flex-direction: row;
+}
+.row4 .left {
+	background-color: red;
+	width: 95%;
+}
+.row4 .right {
+	background-color: blue;
+	width: 5%;
+}
+/* 5 */
+.row5 {
+	background-color: green;
+	width: 100%;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.row5 .box {
+	background-color: red;
+	width: 1.5%;
+	height: 50%;
+}
+/* 6 */
+.row6 {
+	background-color: red;
+	height: 35px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.row6 .box {
+	background-color: blue;
+	height: 100%;
+	width: 4%;
+}
+/* 7 */
+.row7 {
+	display: flex;
+	flex-direction: row;
+}
+.row7 .left {
+	background-color: red;
+	width: 5%;
+}
+.row7 .right {
+	background-color: blue;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.row7 .right .on {
+	background-color: green;
+	width: 100%;
+	height: 30%;
+}
+/* 8 */
+.row8 {
+	background-color: green;
+	height: 35px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.row8 .box {
+	background-color: darkorange;
+	height: 100%;
+	width: calc(25%/5);
+}
+/* 9 */
+.row9 {
+	background-color: green;
+	height: 35px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.row9 .box {
+	background-color: darkorange;
+	height: 100%;
+	width: calc(95%/5);
+}
